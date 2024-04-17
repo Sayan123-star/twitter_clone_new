@@ -1,0 +1,21 @@
+.img{
+    top: 185px
+}
+
+@media screen and (max-width:1024px) {
+    .img{
+        top: 110px
+    }
+    button>.p{
+        font-size: smaller;
+    }
+}
+@media screen and (max-width:420px) {
+    .ava{
+        height: 100px;
+        margin-bottom: 50px
+    }
+    .img{
+        margin-top: 230px;
+    }
+}

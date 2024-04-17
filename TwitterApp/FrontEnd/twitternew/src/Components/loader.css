@@ -1,0 +1,22 @@
+.loading{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    max-width: 100%;
+}
+.loading>div{
+    width: 11.2px;
+    height: 11.2px;
+    border-bottom: 10px solid rgb(36, 134, 149);
+    border-radius: 11.2px;
+    box-shadow: 28px 0px 0 0 rgba(36, 134, 149,0.2),22.7px 16.5px 0 0 rgba(36, 134, 149,0.4),
+    8.68px 26.6px 0 0 rgba(36, 134, 149,0.6),-8.68px 26.6px 0 0 rgba(36, 134, 149,0.8),
+    -22.7px 16.5px 0 0 rgb(36, 134, 149);
+    animation: loadingRotate 800ms linear infinite;
+}
+@keyframes loadingRotate{
+    to{
+        transform: rotate(360deg);
+    }
+}

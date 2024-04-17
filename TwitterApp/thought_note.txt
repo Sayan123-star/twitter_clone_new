@@ -1,0 +1,3 @@
+This project helped me to understand the interface of the Twitter. In this project I have learnt how to create apis, routes, controllers in the backend.
+I have also learnt how to create a good UI with reactJs. I have learnt how to use NodeJs, ExpressJs to implement the backend. I have made image upload functionality
+using multer. I have used cors middleware to integrate with Frontend. I have learnt how to use axios. I have also integrated each controller in backend with frontend.

@@ -1,0 +1,52 @@
+.cover{
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    padding-top:131.5px;
+    padding-bottom:131.5px;
+    text-align:center
+}
+.formcover{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-right-radius:5%;
+    border-bottom-right-radius:5%
+}
+.formcoverLog{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:85px;
+    padding-bottom:20.5px;
+    border-top-right-radius:5%;
+    border-bottom-right-radius:5%
+}
+@media screen and (max-width:830px) {
+    .cover{
+        padding-top:142px;
+        padding-bottom:142px;
+    }
+    .formcoverLog{
+        padding-top:55px;
+        padding-bottom:55px;
+    }
+}
+@media screen and (max-width:430px) {
+    .log{
+        flex-direction: column;
+    }
+    .cover{
+       width: 100%;
+       border-top-left-radius: 0px;
+       border-bottom-left-radius: 0;
+       padding-top:50.5px;
+       padding-bottom:50.5px;
+    }
+    .formcover{
+        border-top-right-radius:0;
+    border-bottom-right-radius:0
+    }
+    .formcoverLog{
+
+        border-top-right-radius:0;
+    border-bottom-right-radius:0
+    }
+}
